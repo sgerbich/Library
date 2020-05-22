@@ -1,7 +1,7 @@
 public class Newspaper extends Periodical{
     private String mainArticleAuthor;
-    public Newspaper(String name, String deweynum, int copies, String fic, int edition, String mainArticleAuthor){
-        super(name, deweynum,copies, fic, edition);
+    public Newspaper(String name,Author author, String deweynum, int copies, String fic, int edition, String mainArticleAuthor){
+        super(name,author, deweynum,copies, fic, edition);
         this.mainArticleAuthor = mainArticleAuthor;
     }
 

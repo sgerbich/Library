@@ -1,7 +1,7 @@
 public class Magazine extends Periodical{
     private int copiesSentPerM;
-    public Magazine(String name, String deweynum, int copies, String fic, int edition,int copiesSentPerM){
-        super(name, deweynum,copies, fic, edition);
+    public Magazine(String name,Author author, String deweynum, int copies, String fic, int edition,int copiesSentPerM){
+        super(name,author, deweynum,copies, fic, edition);
         this.copiesSentPerM = copiesSentPerM;
     }
 

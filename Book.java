@@ -1,7 +1,7 @@
 public class Book extends LibraryItem{
     private String fic;
-    public Book(String name, String deweynum, int copies, String fic){
-        super(name, deweynum,copies);
+    public Book(String name,Author author, String deweynum, int copies, String fic){
+        super(name,author, deweynum,copies);
         this.fic = fic;
     }
 
