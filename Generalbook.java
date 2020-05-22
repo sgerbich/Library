@@ -17,4 +17,9 @@ public class Generalbook extends Book {
         }
     }
 
+
+    int lateCharge(){
+        return 3;
+    }
+
 }

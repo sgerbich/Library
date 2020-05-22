@@ -4,4 +4,6 @@ interface Reserve {
     void loan();
 
     void returnBook();
+    
+    int lateCharge();
 }

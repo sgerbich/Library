@@ -13,5 +13,4 @@ public class Book extends LibraryItem{
         this.fic = fic;
     }
 
-
 }

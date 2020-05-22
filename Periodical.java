@@ -28,4 +28,8 @@ public class Periodical  extends LibraryItem{
     void returnBook(){
         setCopies(getCopies()+1);
     }
+
+    int lateCharge(){
+        return 5;
+    }
 }
